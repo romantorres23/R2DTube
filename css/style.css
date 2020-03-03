@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+    margin: auto;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     min-width: 320px;
@@ -46,12 +46,13 @@ ul {
     display: flex;
     flex-direction: column;
     padding-left: 0;
+    margin-top: 20px;
 }
 
 li {
     display: flex;
     flex-direction: row;
-    margin: 10px 0;
+    margin: 0 0 20px;
 }
 
 li>video {
@@ -69,17 +70,15 @@ li h3, p {
 @media (min-width: 768px) {
     
     main{
-        width: 50%;
+        width: 55%;
         float: left;
-        margin-left: 20px;
+        margin-left: 50px;
         border-bottom: none;
     }
 
     aside{
-        width: 30%;
+        width: 35%;
         float: left;
         margin-left: 20px;
     }
-
-
 }
