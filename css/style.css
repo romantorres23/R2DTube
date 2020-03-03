@@ -67,18 +67,26 @@ li h3, p {
     margin: 0;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1020px) {
     
+    .container {
+        display: flex;
+        flex-direction: row;
+    }
+
     main{
-        width: 55%;
+        width: 100%;
         float: left;
         margin-left: 50px;
         border-bottom: none;
     }
 
     aside{
-        width: 35%;
+        width: 75%;
         float: left;
         margin-left: 20px;
+        height: 834px;
+        overflow-y: scroll;
+        scroll-behavior: smooth;
     }
 }
