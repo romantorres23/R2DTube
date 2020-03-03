@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 320px;
+}
+
+/* Branding and Logo */
+header {
+    display: flex;
+    height: 80px;
+    background-color: #e6e6e6;
+    border-bottom: 3px solid black;
+    padding: 10px 20px;
+}
+
+header>img.branding {
+    height: 60px;
+    border-radius: 25px;
+}
+
+header>h1.branding {
+    margin: 0 10px;
+    font-size: 55px;
+}
+
+/* Main Content */
+main {
+    margin: 20px auto;
+    padding-bottom: 20px;
+    width: 80%;
+    border-bottom: 1px solid rgb(32, 32, 32);
+}
+
+main > video {
+    width: 100%;
+}
+
+/* List of next content */
+aside {
+    width: 80%;
+    margin: auto;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0;
+}
+
+li>video {
+    height: 150px;
+}
+
+li>div.nextVidInfo {
+    padding: 10px;
+}
+
+li h3, p {
+    margin: 0;
+}
+
+@media (min-width: 768px) {
+    
+    main{
+        width: 50%;
+        float: left;
+        margin-left: 20px;
+        border-bottom: none;
+    }
+
+    aside{
+        width: 30%;
+        float: left;
+        margin-left: 20px;
+    }
+
+
+}
