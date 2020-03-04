@@ -24,7 +24,7 @@ class MediaPlayer {
             this.nextVideo();
         });
 
-        ///***Select Video from Playlist */
+        ///***Select Video from Playlist and scroll to top*/
         for (let i = 0; i < this.allVids.length ; i++) {
             this.allVids[i].addEventListener("click", () =>{
                 this.goto(i);
