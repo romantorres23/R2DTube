@@ -63,19 +63,32 @@ li.current {
 
 li>img {
     height: 150px;
+    margin-right: 5px;
 }
 
 li>div.nextVidInfo {
     padding: 10px;
 }
 
-li h3, p {
+li h3 {
+    margin: 10px 0;
+}
+
+li p {
+    margin: 0;
+}
+
+main > p {
+    min-height: 30px;
+}
+
+h4 {
     margin: 0;
 }
 
 @media (min-width: 1020px) {
     
-    .container {
+    .mediacontainer {
         display: flex;
         flex-direction: row;
     }

@@ -1,0 +1,31 @@
+{
+    "description": "vidcontent for media player",
+    "vidcontent": [
+        {
+        "title": "Video1",
+        "image": "img/buckbunny.jfif",
+        "url": "video/Big_Buck_Bunny_1080_10s_30MB.mp4",
+        "description": "1Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, commodi."
+        },{
+        "title": "Video2",
+        "image": "img/jellyfish.jfif",
+        "url": "video/Jellyfish_1080_10s_30MB.mp4",
+        "description": "2Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, commodi."
+        },{
+        "title": "Video3",
+        "image": "img/buckbunny.jfif",
+        "url": "video/Big_Buck_Bunny_1080_10s_30MB.mp4",
+        "description": "3Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, quo."
+        },{
+        "title": "Video4",
+        "image": "img/jellyfish.jfif",
+        "url": "Jellyfish_1080_10s_30MB.mp4",
+        "description": "4Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, dolore?"
+        },{
+        "title": "Video5",
+        "image": "img/buckbunny.jfif",
+        "url": "video/Big_Buck_Bunny_1080_10s_30MB.mp4",
+        "description": "5Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, laudantium."
+        }
+]
+}
