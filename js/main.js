@@ -28,6 +28,7 @@ class MediaPlayer {
         for (let i = 0; i < this.allVids.length ; i++) {
             this.allVids[i].addEventListener("click", () =>{
                 this.goto(i);
+                window.scrollTo(top);
             });
         };
     }
